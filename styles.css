@@ -58,7 +58,8 @@ header .container {
 	display: inline-block;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-weight: bold;
-	font-size: 2em;
+    font-size: 2em;
+    width: 20%;
 	letter-spacing: 0.04em;
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -94,11 +95,6 @@ header .container {
 .nav ul li a.active {
 	color: #000000;
 }
-
-.nav ul li+li {
-	/* See https://www.jackreichert.com/2011/07/how-to-add-a-divider-between-menu-items-in-css-using-only-one-selector/ */
-	border-left: 1px solid #cccccc;
-} 
 
 
 /* Main Content Area */
@@ -246,8 +242,9 @@ img.headshot {
 }
 
 .social img {
-	width: 15%;
-	height: auto;
+	width: 55%;
+    height: auto;
+   /* float: left;*/
 }
 
 /* Footer */
